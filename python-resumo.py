@@ -65,6 +65,7 @@ FOR
 for i in range(5):
   print (i)
 
+ 
 for letra in 'aeiou':
   print (letra)
 
@@ -92,4 +93,33 @@ list('string') // transforma em lista/array
 
 SORT
 array.sort() // Coloca em ordem
+
+CONJUNTOS
+frutas = {'laranja', 'banana', 'abacaxi'}
+
+a = set('abacate')
+b = set('abacaxi')
+a - b Diferença
+a | b União
+a & b Interseção
+a ^ b Diferença simétrica
+
+DICIONÁRIOS
+
+pessoa.keys() - retorna as chaves
+pessoa.values() - retorna os valores
+
+Somente tipos de dados imutáveis podem ser usados como chaves, ou seja, nenhuma lista ou dicionário
+pode ser usado.
+
+Tuplas são permitidas então:
+dic = {(1, 2, 3): 'valor'}
+
+função dict:
+a = dict(um=1, dois=2, três=3)
+{'três': 3, 'dois': 2, 'um': 1}
+
+
+
+
 '''
